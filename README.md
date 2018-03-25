@@ -14,3 +14,6 @@ how it works
 - Size all resources in advance
 - Dont let anything block rendering
 - All CSS is inline, and  less than 50kb
+- Webfonts start downloading immediately
+- Resources prefetched early but loaded lazily
+- Preconnect for downloading above-the-fold content
